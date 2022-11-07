@@ -1,0 +1,32 @@
+{
+  "name": "tofuapps-site",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "dev-network": "svelte-kit dev --host",
+    "build": "rm -r docs 2> /dev/null; svelte-kit build; touch docs/.nojekyll",
+    "package": "svelte-kit package",
+    "preview": "node test_production.cjs"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-content": "^1.0.1",
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.2",
+    "mdsvex": "^0.10.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.46.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/exo-2": "^4.5.1",
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "cookie": "^0.4.1",
+    "express": "^4.17.2",
+    "remark-gfm": "^3.0.1",
+    "upgrade": "^1.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+---
+products:
+- title: loci
+  link: https://loci.ink
+  image: "/assets/products/loci-icon-rounded.png"
+  description: A responsive, real-time collaborative whiteboarding webapp that works and behaves like a native app on every device you have.
+- title: hoard
+  link: https://github.com/tofuapps/hoard
+  image: "/assets/products/hoard-thumbnail.png"
+  description: An open source terminal directory session manager. Bookmark locations and save sessions in most compatible POSIX compliant shells.
+- title: tofu-bot
+  link: https://github.com/l-yc/discord-tofu
+  image: "/assets/products/tofu-bot-msg-alt.png"
+  description: A just-for-fun open source Discord bot with a suite of miscellaneous features, plus an AI module with sentiment analysis that provides message reactions and opinionated suggestions.
+- title: news-reader
+  image: "/assets/products/news-reader-thumbnail.png"
+  description: Proof-of-concept news reader site, created as a school project, that gathers news of similar topics from multiple sources and presents them in summarized paragraphs.
+- title: e2ee-chat
+  wip: true
+  description: An open source, proof-of-concept, end-to-end encrypted chat app and protocol capable of operating with your own encryption key pairs.
+
