@@ -32,6 +32,7 @@
         justify-content: center;
         @include card-style-interactive;
         padding: 16px;
+        margin: 16px 0;
         min-height: 128px;
           h2 {
             margin-top: 0;
