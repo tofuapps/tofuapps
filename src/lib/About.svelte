@@ -1,26 +1,11 @@
-<script>
-	import { onMount } from 'svelte';
-	let emailLink = '#';
-	let emailText = 'email-hidden@example.com';
-	let contactPromptStyle = 'opacity: 0;';
-	/*
-	// Mail no longer active
-	onMount(() => {
-		setTimeout(() => {
-			emailLink = atob(''.split('').reverse().join('') + '');
-			emailText = emailLink.split(":")[1];
-			contactPromptStyle = '';
-		}, 500);
-	});
-	*/
-</script>
+
 <p>
 	We're a small team that loves to create software for the community. With complementing experiences in software development and user experience design, we're excited to bring you some of our best work.
 </p>
 <div id="about-founders-grid">
 	<a href="https://l-yc.me/" target="_blank" class="about-founder">
 		<img src="/assets/yc-logo.jpg" alt="Yue Chen"/>
-		<h3>Yue Chen Li</h3>
+		<h3>Yue Chen</h3>
 		<span>Co-Founder</span>
 		<br/>
 		<span class="link">
@@ -32,7 +17,7 @@
 	</a>
 	<a href="https://wern.cc/" target="_blank" class="about-founder">
 		<img src="/assets/wj-logo.jpg" alt="Wern"/>
-		<h3>Wern Jie Lim</h3>
+		<h3>Wern</h3>
 		<span>Co-Founder</span>
 		<br/>
 		<span class="link">
@@ -43,7 +28,7 @@
 		</span>
 	</a>
 </div>
-<p id="contactPrompt" style={contactPromptStyle}>Feel free to reach us via <a href={emailLink}>{emailText}</a> if you have any queries.</p>
+<p id="contactPrompt">Feel free to reach us via <a href="https://support.wern.cc/contact">Wern Central Support</a> if you have any queries.</p>
 <style lang="scss">
 	#about-founders-grid {
 		display: grid;

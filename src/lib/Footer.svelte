@@ -1,5 +1,5 @@
 <footer>
-	<span>© 2020 - 2022 <a href="/">Tofu Apps</a></span>
+	<span>© 2020 - 2024 <a href="/">Tofu Apps</a></span>
 </footer>
 <style lang="scss">
 	footer {
