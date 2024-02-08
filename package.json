@@ -2,22 +2,23 @@
   "name": "tofuapps-site",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "dev-network": "svelte-kit dev --host",
-    "build": "rm -r docs 2> /dev/null; svelte-kit build; touch docs/.nojekyll",
-    "package": "svelte-kit package",
+    "dev": "vite dev",
+    "dev-network": "vite dev --host",
+    "build": "rm -r docs 2> /dev/null; vite build; touch docs/.nojekyll",
     "preview": "node test_production.cjs"
   },
   "devDependencies": {
-    "@originjs/vite-plugin-content": "^1.0.1",
-    "@sveltejs/adapter-static": "next",
-    "@sveltejs/kit": "next",
+    "@modyfi/vite-plugin-yaml": "^1.1.0",
+    "@sveltejs/adapter-static": "^3.0.1",
+    "@sveltejs/kit": "^2.5.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "autoprefixer": "^10.4.2",
-    "mdsvex": "^0.10.5",
+    "mdsvex": "^0.11.0",
     "postcss-cli": "^9.1.0",
     "sass": "^1.46.0",
-    "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.1"
+    "svelte": "^4.0.0",
+    "svelte-preprocess": "^5.0.3",
+    "vite": "^5.0.12"
   },
   "type": "module",
   "dependencies": {
