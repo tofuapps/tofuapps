@@ -4,7 +4,7 @@
 </p>
 <div id="about-founders-grid">
 	<a href="https://l-yc.me/" target="_blank" class="about-founder">
-		<img src="/assets/yc-logo.jpg" alt="Yue Chen"/>
+		<img src="./logos/yuechen.jpg" alt="Yue Chen"/>
 		<h3>Yue Chen</h3>
 		<span>Co-Founder</span>
 		<br/>
@@ -16,7 +16,7 @@
 		</span>
 	</a>
 	<a href="https://wern.cc/" target="_blank" class="about-founder">
-		<img src="/assets/wj-logo.jpg" alt="Wern"/>
+		<img src="./logos/wern.jpg" alt="Wern"/>
 		<h3>Wern</h3>
 		<span>Co-Founder</span>
 		<br/>

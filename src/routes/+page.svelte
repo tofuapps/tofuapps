@@ -33,7 +33,7 @@
 <div id="landing-container" bind:this={container}>
 	<div id="landing-center" bind:this={center}>
 		<div id="landing-logo-container">
-			<img id="landing-logo" src="/logo.png" alt="Tofu Apps Logo"
+			<img id="landing-logo" src="./logo.png" alt="Tofu Apps Logo"
 										  on:contextmenu|preventDefault={()=>{}}
 										  on:touchstart|preventDefault={()=>{}}
 										  bind:this={logo}
@@ -147,7 +147,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: contain;
-		background: url(/logo-preview.png);
+		background: url(./logo-preview.png);
 		background-repeat: no-repeat;
 		background-size: contain;
 		transition: transform 0.5s ease;
