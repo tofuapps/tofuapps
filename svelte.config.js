@@ -2,6 +2,7 @@ import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-static";
 import autoprefixer from "autoprefixer";
 import { mdsvex } from 'mdsvex';
+import { importAssets } from 'svelte-preprocess-import-assets'
 
 import remarkGfm from "remark-gfm";
 
@@ -33,7 +34,8 @@ const config = {
       remarkPlugins: [
         remarkGfm,
       ],
-    })
+    }),
+    importAssets()
   ],
 };
 
