@@ -12,7 +12,7 @@ products:
   link: https://github.com/l-yc/discord-tofu
   image: "/assets/products/tofu-bot-msg-alt.png"
   description: A just-for-fun open source Discord bot with a suite of miscellaneous features, plus an AI module with sentiment analysis that provides message reactions and opinionated suggestions.
-- title: news-reader
+- title: tldr
   image: "/assets/products/news-reader-thumbnail.png"
   description: Proof-of-concept news reader site, created as a school project, that gathers news of similar topics from multiple sources and presents them in summarized paragraphs.
 - title: e2ee-chat
